@@ -10,7 +10,7 @@ primes = []
 not_primes = []
 
 for i in numbers:
-    if i == 1: continue
+    if i < 2: continue
     if _is_prime(i): primes.append(i)
     else: not_primes.append(i)
 

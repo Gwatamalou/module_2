@@ -26,7 +26,7 @@ print(get_matrix_2(int(input('enter number of lines: ')), int(input('enter numbe
                    input('enter value: ')))
 
 
-# Если уже делать без нумпай то хтоябы так3
+# Если уже делать без нумпай то хтоябы так
 """
 def get_matrix_3(n, m, value):
     matrix = [[value] * m for i in range(n)]
